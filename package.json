@@ -2,8 +2,8 @@
   "name": "enum-switch",
   "displayName": "enum-switch",
   "description": "turn enums into beautiful switch statements",
-  "publisher": "Philipp Rost",
-  "version": "0.0.1",
+  "publisher": "philipprost",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.82.0"
   },

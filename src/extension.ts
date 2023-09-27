@@ -7,7 +7,7 @@ function isEnum(text: string): boolean {
 
 function convertEnumToSwitch(text: string): string {
   const lines = text.split("\n");
-  const enumName = lines[0].split(" ")[1];
+  const enumName = lines[0].trim().split(/\s+/)[1];
   const cases = [];
 
   for (let i = 1; i < lines.length - 1; i++) {
